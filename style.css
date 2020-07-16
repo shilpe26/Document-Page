@@ -1,0 +1,209 @@
+html{
+    font-family: 'Playfair Display', serif;
+    scroll-behavior: smooth;
+}
+.head{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 0.8%;
+    margin-bottom: auto;
+    background-image: linear-gradient(to right,#90caf9 ,aliceblue,blue);
+    font-family: cursive;
+    
+}
+
+
+#navbar ul {
+  height: 88%;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.nav-head{
+    font-size: 33px;
+    text-align: center;
+    background-image: linear-gradient(to right,#90caf9 ,aliceblue);
+}
+.nav-link{
+    font-size: 25px;
+    text-align: left;
+    justify-items: left;
+    justify-content: flex-start;
+    justify-self: left;
+    display: block;
+  padding: 10px 30px;
+  color: #263238;
+  text-decoration: none;
+  cursor: pointer;
+    font-family:  ui-monospace bold;
+    border-top: 1px solid;
+  list-style: none;
+  position: relative;
+  width: 100%;
+}
+#navbar ul {
+  height: 88%;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+ 
+.col1{
+    background-image: linear-gradient(to right,aliceblue,#90caf9,aliceblue); 
+}
+.col2{
+    background-image: linear-gradient(to right,aliceblue,#f8bbd0 ,aliceblue); 
+}
+.col3{
+    background-image: linear-gradient(to right,aliceblue,#c51162 ,aliceblue); 
+}
+.col4{
+    background-image: linear-gradient(to right,aliceblue,#18ffff  ,aliceblue); 
+}
+.col5{
+    background-image: linear-gradient(to right,aliceblue,#cddc39 ,aliceblue); 
+}
+.col6{
+    background-image: linear-gradient(to right,aliceblue,#8bc34a ,aliceblue); 
+}
+.col7{
+    background-image: linear-gradient(to right,aliceblue,#ffa726 ,aliceblue); 
+}
+.col8{
+    background-image: linear-gradient(to right,aliceblue,#795548 ,aliceblue); 
+}
+.col9{
+    background-image: linear-gradient(to right,aliceblue,#ff6e40 ,aliceblue); 
+}
+.col10{
+    background-image: linear-gradient(to right,aliceblue,#f57f17 ,aliceblue); 
+}
+.col11{
+    background-image: linear-gradient(to right,aliceblue,#607d8b ,aliceblue); 
+}
+.col12{
+    background-image: linear-gradient(to right,aliceblue,#00e676,aliceblue); 
+}
+.col13{
+    background-image: linear-gradient(to right,aliceblue,#5e35b1,aliceblue); 
+}
+.col14{
+    background-image: linear-gradient(to right,aliceblue,#f50057,aliceblue); 
+}
+.head2{
+    text-align: center;
+    font-family: Georgia, serif bold;
+    color: black;
+    font-size: 35px;
+    
+     
+}
+.main-section{
+    font-size: 24px;
+    color: black;
+    font-family: Gill Sans sans-serif;
+}
+.margin{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+.item1 {
+    border-bottom: solid 1px black;
+    margin-bottom: 10px;
+    background: linear-gradient(gainsboro,white);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+.title{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+  .item2 {
+    border: solid 1px black;
+    grid-area: advert;
+      text-align: center;
+      font-size: 30px;
+  }
+
+  .item3 {
+    border: solid 1px black;
+    grid-area: content;
+  }
+
+  .item4 {
+    border: solid 1px black;
+    grid-area: footer;
+      font-size: 17px;
+      background-image: linear-gradient(to right,#90caf9 ,aliceblue,blue);
+  }
+
+  .container {
+    width: 100%;
+    display: grid;
+    margin: auto;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: auto auto;
+    grid-gap: 10px;
+    grid-template-areas:
+        "advert content"
+        "footer footer";
+      border-color: #0d47a1;
+      border-width: thick;
+  }
+
+  @media (max-width: 800px){
+    .container{
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto;
+      grid-template-areas:
+        "advert"
+        "content"
+        "footer";
+    }
+  }
+
+
+@media only screen and (max-width: 815px) {
+  /* For mobile phones: */
+  #navbar ul {
+    border: 1px solid;
+    height: 207px;
+  }
+
+  #navbar {
+    background-color: white;
+    position: absolute;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-height: 275px;
+    border: none;
+    z-index: 1;
+    border-bottom: 2px solid;
+  }
+
+  #main-doc {
+    position: relative;
+    margin-left: 0px;
+    margin-top: 270px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #main-doc {
+    margin-left: -10px;
+  }
+
+  code {
+    margin-left: -20px;
+    width: 100%;
+    padding: 15px;
+    padding-left: 10px;
+    padding-right: 45px;
+    min-width: 233px;
+  }
+}
