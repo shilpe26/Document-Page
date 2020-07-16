@@ -31,7 +31,7 @@ html{
     justify-content: flex-start;
     justify-self: left;
     display: block;
-  padding: 10px 30px;
+  padding: 5px 20px;
   color: #263238;
   text-decoration: none;
   cursor: pointer;
@@ -193,10 +193,6 @@ html{
   }
 }
 
-@media only screen and (max-width: 400px) {
-  #main-doc {
-    margin-left: -10px;
-  }
 
   code {
     margin-left: -20px;
